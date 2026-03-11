@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/banner.jpg);
+    min-height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
+    margin-top: 55px;     
+}
+
+.product-card-img{
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.service{
+    background: #f2f2f2;
+}
+
+.service-img{
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+}
+.fix{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    scroll-behavior: smooth;
+}
